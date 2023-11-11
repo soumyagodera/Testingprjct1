@@ -1,0 +1,41 @@
+,,,,,,,,,
+Project Name ,Wobb.ai,,Date:27/03/2022,,,,,,
+Module,,,Device:Web,,,,,,
+TestExecuted By,G Soumya,,,,,,,,
+,,,,,,,,,
+Defect ID,Bug Title,Steps to Reproduce ,Bug Description,Severity,Priority,Status,Reported By,Reported to,Assigned By
+Landing Page_01,Static logo in Landing page.,"1.Launch http://test.wobb.ai/.
+",Logo is displayed statically.,Low,High,New,Soumya,Developer1,Wobb
+Landing Page_02,Spelling Mistake in Profile.,"1.Launch http://test.wobb.ai/.
+2.Click on profile icon.
+3.Go to Change Profile Picture","Change pofile picture is having spelling mistake in
+Pofile.",Low,Low,New,Soumya,Developer1,Wobb
+Landing page_03,In FAQ's  wobb.ai Helpcenter is not working.,"1.Launch http://test.wobb.ai/.
+2.Go to FAQ's bottom of the Home page
+3.Wobb.ai Helpcenter is not Working",When we click on wobb.ai Helpcenter  it is not working or Not giving any response.,High,High,New,Soumya,Developer1,Wobb
+Landing page_04,"Bottom of the page Two links are having same videos with
+description.","1.Launch http://test.wobb.ai/2.
+2.Go to Bottom of the Home page.
+3.Click on 'How it works' link and
+4.Click on 'Demo videos' link. ",How it works link and Demo videos link are navigating to same page with videos.,Low,Medium,New,Soumya,Developer1,Wobb
+Landing page_05,Companies names are shown statically.,"1.Launch http://test.wobb.ai/.
+2.Go to Trusted by 1,000+ companies","When we go to Trusted by 1,000+ companies,names are displayed statically and not displayed All names of Companies.",Low,Low,New,Soumya,Developer1,Wobb
+Signup page_06,Error should be displayed when Invalid Gmail is given.,"1.Launch http://test.wobb.ai/.
+2.Click on Signup button.
+3.Enter the invalid Email .
+",When we enter a invalid Email Id it should throw some error.,High,High,New,Soumya,Developer1,Wobb
+Signup page_07,After changing profile picture and navigating back application got struckup.,"1.Launch http://test.wobb.ai/
+2.Click on Signup button.
+3.Click on Change Your Profile picture.
+4.After changing Profile picture click on back arrow.",After Changing profile picture  clicked on back arrow it is not navigating and application got struck by blinking and closed.,High,High,New,Soumya,Developer1,Wobb
+Post Campaign_08,Check Boxes are not selected when we click on the text In Category options.,"1.Launch http://test.wobb.ai/.
+2.Click on Login .
+3.Go to Post campaign and click.
+4.Go to Influence Requirements and then click Category.
+5.Should be able to select the checkbox when we click on any single text option.  ","All Single texts in category are not getting ticked in checkboxes.
+Example : Click on Beauty then Checkbox must be ticked.But it is not ticked in checkbox.",Medium,Low,New,Soumya,Developer2,Wobb
+Post Campaign_09,In Compaign requirements firstly select platform textbox is  displaying nothing.,"1.Launch http://test.wobb.ai/.
+2.Click on Login .
+3.Go to Post campaign and click on it.
+4.Go to Compaign requirements.
+5.Select the Firstly Select Platform and it should be able to display the options to be selected.","In Campaign requirements,Firstly Select Platform textbox is displaying empty small window.",Low,High,New,Soumya,Developer2,Wobb
